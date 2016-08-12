@@ -1,0 +1,33 @@
+html, body, .container-table{
+	height: 100%;
+}
+
+.container-table{
+	display: table;
+}
+
+.vertical-center-row{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.img-responsive{
+	margin: 0 auto;
+}
+
+.list-img{
+	width: 200px;
+	margin: 0 auto;
+}
+
+.list-img li{
+	display: inline;
+}
+
+.pad-top{
+	height: 30px;
+}
+
+.align-center{
+	text-align: center;
+}

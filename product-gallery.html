@@ -1,0 +1,19 @@
+<div ng-show="product.images.length">
+				<!--<img class="img img-circle img-thumbnail center-block" ng-src="{{product.images[gallery.current]}}" />-->
+				<div style="background-color: #9370DB;">
+					<div class="pad-top"></div>
+						<img class="img-responsive" ng-src="{{product.images[gallery.current]}}" width="480" height="350"/>
+					<div class="pad-top"></div>
+				</div>
+				
+				<!--	<ul class="list-img img-thumbnails clearfix">
+						<li class="small-image pull-left thumbnail" ng-repeat="image in product.images">
+							<img ng-src="{{image}}" width="250" height="200"/>
+						</li>
+					</ul>-->
+				<div class="pad-top"></div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12 align-center" style="background-color: #DDBB00;" ng-repeat="image in product.images">
+					<img ng-src="{{image}}" width="250" height="150" />
+				</div>
+</div>
